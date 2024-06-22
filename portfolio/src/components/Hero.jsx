@@ -12,8 +12,16 @@ const Hero = () => {
                     <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
                         Software Engineer
                     </span>
-                    <p>{HERO_CONTENT}</p>
+                    <p className="my-2 max-w-xl py-6 font-light tracking-tighter">
+                        {HERO_CONTENT}
+                    </p>
                 </div>
+            </div>
+            <div className="w-full lg:w-1/2 lg:p-8 bg-black">
+                <div className="flex justify-center">
+                    <p>Need to add 3d tiles for skills!!!</p>
+                </div>
+
             </div>
         </div>    
     </div>
