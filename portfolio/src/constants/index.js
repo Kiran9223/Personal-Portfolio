@@ -5,32 +5,22 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2022 - Present",
+    role: "Backend Developer",
+    company: "IBM",
+    description: `Created RESTful APIs using Spring Boot that scaled up to 2000+ users accessing the API in a minute.\n Successfully performed the migration of a Java Struts application from Struts version 2.5 to 6.1. \n Mappedoutuser requirements to reorganize database schemas and increase consistency of performance results, which
+ yielded a 60% improvement in efficiency. \n Utilized webhook to successfully integrate Slack application with GitHub code repository to receive notifications
+ whenever pull requests are created and code is merged. \n Workedextensively in a DevOps environment, proficiently leveraging Docker to containerize applications and facilitate
+ deployments on the IBM Public Cloud through efficient CI/CD pipelines.`,
+    technologies: ["Java", "Spring Boot", "REST API", "Struts", "Db2", "IBM Public Cloud"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2020 - 2022",
+    role: "Software Developer",
+    company: "IBM",
+    description: `Developed and maintained Java Spring MVC-based server-side applications. \n Consolidated existing codebase with clean up and eliminated redundant modules, optimizing performance by 30% \n Implemented complex business logic and workflows using java and spring framework. \n Migrated legacy application which was built using JSF to Angular which improved user experience. \n
+    Created dynamic and user-friendly web pages using Angular framework.`,
+    technologies: ["Java", "Angular", "Spring MVC", "Db2"],
   },
 ];
 

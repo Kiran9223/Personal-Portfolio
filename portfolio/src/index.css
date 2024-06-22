@@ -8,3 +8,10 @@
   font-family: "Source Code Pro", sans-serif;
 }
 
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
