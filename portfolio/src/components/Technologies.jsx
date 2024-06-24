@@ -30,11 +30,12 @@ const Technologies = () => {
                 <FaGolang className="text-7xl text-cyan-400"/>
             </div>
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
-                <SiMysql className="text-7xl text-red-600"/>
-            </div>
-            <div className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiJavascript className="text-7xl text-yellow-600"/>
             </div>
+            <div className="rounded-2xl border-4 border-neutral-800 p-4">
+                <SiMysql className="text-7xl text-red-600"/>
+            </div>
+            
         </div>
     </div>
   )
