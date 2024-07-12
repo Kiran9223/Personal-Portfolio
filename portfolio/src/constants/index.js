@@ -59,5 +59,5 @@ export const PROJECTS = [
 
 export const CONTACT = {
   phoneNo: "+000000000000",
-  email: "ks12.dev@gmail.com",
+  email: "kirann9223@gmail.com",
 };
