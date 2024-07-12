@@ -65,7 +65,7 @@ const Hero = () => {
                     transition={{duration: 1, delay:1.2}}
                     className="mb-2 flex justify-center">
                     <Tilt className="rose-sky-gradient  xs:w-[250px] w-full p-[1px] bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex items-center flex-col" glareColor="#A91079" glareEnable={true} gyroscope={true} glareBorderRadius='20px' glareMaxOpacity={0.5} glarePosition='all' perspective={500} style={{transformStyle: "preserve-3d"}}>
-                        <img src={Fullstack} alt="Fullstack Developer" className='w-53 h-50 object-contain pointer-events-none' style={{transform: "translateZ(100px)" }} />
+                        <img src={Fullstack} alt="Fullstack Developer" className='w-53 h-50 py-5 object-contain pointer-events-none' style={{transform: "translateZ(100px)" }} />
                         <h3 className="text-black  text-[20px] font-bold text-center" style={{transform: "translateZ(50px)" }}>Fullstack Developer</h3>
 		            </Tilt>
                 </motion.div>
@@ -76,7 +76,7 @@ const Hero = () => {
                     transition={{duration: 1, delay:1.7}}
                     className="flex justify-center">
                     <Tilt className="blood-blue-gradient  xs:w-[250px] w-full p-[1px] bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex items-center flex-col" glareColor="#A91079" glareEnable={true} gyroscope={true} glareBorderRadius='20px' glareMaxOpacity={0.5} glarePosition='all' perspective={500} style={{transformStyle: "preserve-3d"}}>
-                        <img src={Backend} alt="Back-end Developer" className='w-50 h-56 object-contain pointer-events-none' style={{transform: "translateZ(100px)" }} />
+                        <img src={Backend} alt="Back-end Developer" className='w-50 h-56 xs:w-[250px] object-contain pointer-events-none' style={{transform: "translateZ(100px)" }} />
                         <h3 className="text-black  text-[20px] font-bold text-center" style={{transform: "translateZ(50px)" }}>Back-end Developer</h3>
 		            </Tilt>
                 </motion.div>
