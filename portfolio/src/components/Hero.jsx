@@ -1,9 +1,10 @@
-import { HERO_CONTENT } from "../constants/index.js";
+import { HERO_CONTENT, RESUME } from "../constants/index.js";
 import { Typewriter } from "react-simple-typewriter";
 import Tilt from 'react-parallax-tilt';
 import Backend from "../assets/backend.png";
 import Fullstack from "../assets/fullstack.png";
 import {motion } from "framer-motion";
+import { GrDocumentPdf } from "react-icons/gr";
 
 const container = (x_value, delay) => ({
     hidden: {x:-100, opacity: 0},
@@ -34,12 +35,26 @@ const Hero = () => {
                         className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
                         <Typewriter words={[' Full Stack Developer.', ' Software Engineer.','Back-end Developer.']} loop={0} cursor cursorStyle='_' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
                     </motion.span>
+                    
                     <motion.p 
                         variants={container(0, 1)}
                         initial="hidden"
                         animate="visible"
                         className="my-2 max-w-xl py-6 font-light text-justify tracking-tighter">
                         {HERO_CONTENT}
+                    </motion.p>
+                    <motion.p 
+                        variants={container(0, 1.5)}
+                        initial="hidden"
+                        animate="visible"
+                        className="my-2 max-w-xl py-6 font-light text-justify tracking-tighter">
+                        <div className="flex flex-row items-center lg:items-start">
+                            <div className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">
+                                Resume
+                            </div>
+                            <a href={RESUME} target="_blank"><GrDocumentPdf /> </a>
+                        </div>
+                        
                     </motion.p>
                 </div>
             </div>

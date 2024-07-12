@@ -61,3 +61,5 @@ export const CONTACT = {
   phoneNo: "+000000000000",
   email: "kirann9223@gmail.com",
 };
+
+export const RESUME = "https://drive.google.com/file/d/1oaP4Su5HOTszDoNpC1IUAl5PB9O3N0Z9/view?usp=sharing";
