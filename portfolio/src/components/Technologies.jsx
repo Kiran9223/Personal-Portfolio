@@ -5,7 +5,7 @@ import { SiSpringboot} from "react-icons/si";
 import { FaGolang } from "react-icons/fa6";
 import { SiMysql } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
-import { animate, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 const iconVariants = (duration) => ({
     intial: {y: -10},
