@@ -5,6 +5,7 @@ import { SiSpringboot} from "react-icons/si";
 import { FaGolang } from "react-icons/fa6";
 import { SiMysql } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
+import { FaPython } from "react-icons/fa";
 import { motion } from 'framer-motion';
 
 const iconVariants = (duration) => ({
@@ -48,6 +49,13 @@ const Technologies = () => {
                 animate="animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
                 <SiSpringboot className="text-7xl text-green-600"/>
+            </motion.div>
+            <motion.div 
+                variants={iconVariants(1.7)}
+                initial="initial"
+                animate="animate"
+                className="rounded-2xl border-4 border-neutral-800 p-4">
+                <FaPython className="text-7xl text-yellow-600"/>
             </motion.div>
            <motion.div 
                 variants={iconVariants(2)}
