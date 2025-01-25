@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project1.jpg";
 import project2 from "../assets/projects/project2.jpg";
 import project3 from "../assets/projects/project3.jpg";
 import project4 from "../assets/projects/Stratosphere.png";
+import portfolio from "../assets/projects/portfolio.png";
 
 export const HERO_CONTENT = `Welcome to my portfolio! I'm Kiran Sukumar, a passionate and experienced software developer with a strong background in backend development and full-stack projects. Currently pursuing my Masters in Computer Science at California State University, Fullerton, I bring a wealth of knowledge and practical experience gained from my time at IBM. With a keen eye for detail and a commitment to delivering high-quality software solutions, I thrive in collaborative environments and enjoy tackling complex challenges. My experience spans developing scalable applications, performing migrations, optimizing performance, and integrating cutting-edge technologies.`;
 
@@ -41,7 +42,16 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Stratoshpere",
+    title: "CineSage",
+    image: project3,
+    description:
+      `Utilized GPT-4 (an LLM) to generate movie embeddings and transform user queries, creating a Generative AI-driven
+       recommendation pipeline underpinned by Retrieval-Augmented Generation (RAG). Leveraged Weaviate’s vector
+       database for rapid similarity searches and retrieval, enabling context-rich, highly relevant movie recommendations.`,
+    technologies: ["Python", "GPT4 LLM", "RAG","VectorDB","StreamLit"], 
+  },
+  {
+    title: "Stratosphere",
     image: project4,
     description:
       `Developed a backend system using FastAPI and asynchronous programming to manage cloud service access dynamically, integrating JWT - based authentication, authorization, and role-based access control (RBAC) for secure and efficient user subscription management.
@@ -65,7 +75,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: portfolio,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind CSS"],
@@ -74,7 +84,7 @@ export const PROJECTS = [
 
 export const CONTACT = {
   phoneNo: "+000000000000",
-  email: "kirann9223@gmail.com",
+  email: "kiransukumar@csu.fullerton.edu",
 };
 
 export const RESUME = "https://drive.google.com/file/d/1Z-EMoozIrs4cLQXfLMb8kjKIhTtHDeHi/view?usp=sharing";
